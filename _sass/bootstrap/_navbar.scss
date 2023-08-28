@@ -46,7 +46,9 @@
 // To start (on mobile devices) the navbar links, forms, and buttons are stacked
 // vertically and include a `max-height` to overflow in case you have too much
 // content for the user's viewport.
-
+.navbar-custom {
+    background-color: lightblue;
+}
 .navbar-collapse {
   overflow-x: visible;
   padding-right: $navbar-padding-horizontal;
