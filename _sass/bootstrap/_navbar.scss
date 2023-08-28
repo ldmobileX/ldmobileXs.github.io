@@ -395,8 +395,8 @@
 
 // Default navbar
 .navbar-default {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  background-color: #89CFF0;
+  border-color: #fff;
 
   .navbar-brand {
     color: $navbar-default-brand-color;
@@ -490,7 +490,7 @@
           &,
           &:hover,
           &:focus {
-            color: $navbar-default-link-disabled-color;
+            : $navbar-default-link-disabled-color;
             background-color: $navbar-default-link-disabled-bg;
           }
         }
