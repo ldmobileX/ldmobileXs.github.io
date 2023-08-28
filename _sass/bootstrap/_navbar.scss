@@ -413,12 +413,12 @@
 
   .navbar-nav {
     > li > a {
-      color: lightblue;
+      color: white;
 
       &:hover,
       &:focus {
         color: white;
-        background-color: lightblue;
+        background-color: white;
       }
     }
     > .active > a {
@@ -426,7 +426,7 @@
       &:hover,
       &:focus {
         color: white;
-        background-color: lightblue;
+        background-color: white;
       }
     }
     > .disabled > a {
@@ -434,25 +434,25 @@
       &:hover,
       &:focus {
         color: white;
-        background-color: lightblue;
+        background-color: white;
       }
     }
   }
 
   .navbar-toggle {
-    border-color: lightblue;
+    border-color: white;
     &:hover,
     &:focus {
-      background-color: lightblue;
+      background-color: white;
     }
     .icon-bar {
-      background-color: lightblue;
+      background-color: white;
     }
   }
 
   .navbar-collapse,
   .navbar-form {
-    border-color: lightblue;
+    border-color: white;
   }
 
   // Dropdown menu items
@@ -462,7 +462,7 @@
       &,
       &:hover,
       &:focus {
-        background-color: lightblue;
+        background-color: white;
         color: white;
       }
     }
@@ -475,7 +475,7 @@
           &:hover,
           &:focus {
             color: white;
-            background-color: lightblue;
+            background-color: white;
           }
         }
         > .active > a {
@@ -483,7 +483,7 @@
           &:hover,
           &:focus {
             color: white;
-            background-color: lightblue;
+            background-color: white;
           }
         }
         > .disabled > a {
@@ -491,7 +491,7 @@
           &:hover,
           &:focus {
             color: white;
-            background-color: lightblue;
+            background-color: white;
           }
         }
       }
@@ -529,15 +529,15 @@
 // Inverse navbar
 
 .navbar-inverse {
-  background-color: lightblue;
-  border-color: lightblue;
+  background-color: white;
+  border-color: white;
 
   .navbar-brand {
     color: white;
     &:hover,
     &:focus {
       color: white;
-      background-color: lightblue;
+      background-color: white;
     }
   }
 
@@ -547,12 +547,12 @@
 
   .navbar-nav {
     > li > a {
-      color: lightblue;
+      color: white;
 
       &:hover,
       &:focus {
         color: white;
-        background-color: lightblue;
+        background-color: white;
       }
     }
     > .active > a {
@@ -568,7 +568,7 @@
       &:hover,
       &:focus {
         color: white;
-        background-color: lightblue;
+        background-color: white;
       }
     }
   }
