@@ -9,8 +9,9 @@
 // other navbar variations.
 
 .navbar {
+  background-color: lightblue; /* Change this line to set the desired color */
   position: relative;
-  min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  min-height: $navbar-height;
   margin-bottom: $navbar-margin-bottom;
   border: 2px solid transparent;
 
