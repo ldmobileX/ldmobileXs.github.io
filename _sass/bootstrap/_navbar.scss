@@ -402,8 +402,8 @@
     color: white;
     &:hover,
     &:focus {
-      color: lightblue;
-      background-color: $navbar-default-brand-hover-bg;
+      color: white;
+      background-color: lightblue;
     }
   }
 
@@ -425,34 +425,34 @@
       &,
       &:hover,
       &:focus {
-        color: $navbar-default-link-active-color;
-        background-color: $navbar-default-link-active-bg;
+        color: white;
+        background-color: lightblue;
       }
     }
     > .disabled > a {
       &,
       &:hover,
       &:focus {
-        color: $navbar-default-link-disabled-color;
-        background-color: $navbar-default-link-disabled-bg;
+        color: white;
+        background-color: lightblue;
       }
     }
   }
 
   .navbar-toggle {
-    border-color: $navbar-default-toggle-border-color;
+    border-color: lightblue;
     &:hover,
     &:focus {
-      background-color: $navbar-default-toggle-hover-bg;
+      background-color: lightblue;
     }
     .icon-bar {
-      background-color: $navbar-default-toggle-icon-bar-bg;
+      background-color: lightblue;
     }
   }
 
   .navbar-collapse,
   .navbar-form {
-    border-color: $navbar-default-border;
+    border-color: lightblue;
   }
 
   // Dropdown menu items
@@ -462,8 +462,8 @@
       &,
       &:hover,
       &:focus {
-        background-color: $navbar-default-link-active-bg;
-        color: $navbar-default-link-active-color;
+        background-color: lightblue;
+        color: white;
       }
     }
 
@@ -471,27 +471,27 @@
       // Dropdowns get custom display when collapsed
       .open .dropdown-menu {
         > li > a {
-          color: $navbar-default-link-color;
+          color: white;
           &:hover,
           &:focus {
-            color: $navbar-default-link-hover-color;
-            background-color: $navbar-default-link-hover-bg;
+            color: white;
+            background-color: lightblue;
           }
         }
         > .active > a {
           &,
           &:hover,
           &:focus {
-            color: $navbar-default-link-active-color;
-            background-color: $navbar-default-link-active-bg;
+            color: white;
+            background-color: lightblue;
           }
         }
         > .disabled > a {
           &,
           &:hover,
           &:focus {
-            color: $navbar-default-link-disabled-color;
-            background-color: $navbar-default-link-disabled-bg;
+            color: white;
+            background-color: lightblue;
           }
         }
       }
@@ -504,23 +504,23 @@
   // Add a class to ensure links outside the navbar nav are colored correctly.
 
   .navbar-link {
-    color: $navbar-default-link-color;
+    color: white;
     &:hover {
-      color: $navbar-default-link-hover-color;
+      color: white;
     }
   }
 
   .btn-link {
-    color: $navbar-default-link-color;
+    color: white;
     &:hover,
     &:focus {
-      color: $navbar-default-link-hover-color;
+      color: white;
     }
     &[disabled],
     fieldset[disabled] & {
       &:hover,
       &:focus {
-        color: $navbar-default-link-disabled-color;
+        color: white;
       }
     }
   }
@@ -529,46 +529,46 @@
 // Inverse navbar
 
 .navbar-inverse {
-  background-color: $navbar-inverse-bg;
-  border-color: $navbar-inverse-border;
+  background-color: lightblue;
+  border-color: lightblue;
 
   .navbar-brand {
-    color: $navbar-inverse-brand-color;
+    color: white;
     &:hover,
     &:focus {
-      color: $navbar-inverse-brand-hover-color;
-      background-color: $navbar-inverse-brand-hover-bg;
+      color: white;
+      background-color: lightblue;
     }
   }
 
   .navbar-text {
-    color: $navbar-inverse-color;
+    color: white;
   }
 
   .navbar-nav {
     > li > a {
-      color: $navbar-inverse-link-color;
+      color: lightblue;
 
       &:hover,
       &:focus {
-        color: $navbar-inverse-link-hover-color;
-        background-color: $navbar-inverse-link-hover-bg;
+        color: white;
+        background-color: lightblue;
       }
     }
     > .active > a {
       &,
       &:hover,
       &:focus {
-        color: $navbar-inverse-link-active-color;
-        background-color: $navbar-inverse-link-active-bg;
+        color: white;
+        background-color: lightblue;
       }
     }
     > .disabled > a {
       &,
       &:hover,
       &:focus {
-        color: $navbar-inverse-link-disabled-color;
-        background-color: $navbar-inverse-link-disabled-bg;
+        color: white;
+        background-color: lightblue;
       }
     }
   }
