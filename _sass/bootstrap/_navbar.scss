@@ -9,11 +9,10 @@
 // other navbar variations.
 
 .navbar {
-  background-color: lightblue; /* Change this line to set the desired color */
   position: relative;
-  min-height: $navbar-height;
+  min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: $navbar-margin-bottom;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
   @include clearfix;
@@ -23,9 +22,6 @@
   }
 }
 
-.navbar-custom {
-  background-color: lightblue; /* Change this line to set the desired color */
-}
 
 // Navbar heading
 //
@@ -50,9 +46,7 @@
 // To start (on mobile devices) the navbar links, forms, and buttons are stacked
 // vertically and include a `max-height` to overflow in case you have too much
 // content for the user's viewport.
-.navbar-custom {
-    background-color: lightblue;
-}
+
 .navbar-collapse {
   overflow-x: visible;
   padding-right: $navbar-padding-horizontal;
@@ -202,7 +196,7 @@
   margin-right: $navbar-padding-horizontal;
   padding: 9px 10px;
   @include navbar-vertical-align(34px);
-  background-color: lightblue;
+  background-color: transparent;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
   border-radius: $border-radius-base;
@@ -251,7 +245,7 @@
       float: none;
       width: auto;
       margin-top: 0;
-      background-color:  #89CFF0;
+      background-color: transparent;
       border: 0;
       box-shadow: none;
       > li > a,
@@ -295,7 +289,7 @@
   padding: 10px $navbar-padding-horizontal;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  $shadow: inset 0 1px 0 rgba(137,207,240,.1), 0 1px 0 rgba(137,207,240,.1);
+  $shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
   @include box-shadow($shadow);
 
   // Mixin behavior for optimum display
@@ -401,38 +395,38 @@
 
 // Default navbar
 .navbar-default {
-  background-color: #89CFF0;
-  border-color: #fff;
+  background-color: lightblue;
+  border-color: $navbar-default-border;
 
   .navbar-brand {
-    color:  #89CFF0;
+    color: white;
     &:hover,
     &:focus {
-      color:  #89CFF0;
-      background-color:  #89CFF0;
+      color: lightblue;
+      background-color: $navbar-default-brand-hover-bg;
     }
   }
 
   .navbar-text {
-    color: #fff;
+    color: $navbar-default-color;
   }
 
   .navbar-nav {
     > li > a {
-      color:  #89CFF0;
+      color: $navbar-default-link-color;
 
       &:hover,
       &:focus {
-        color:  #fff;
-        background-color: #89CFF0;
+        color: $navbar-default-link-hover-color;
+        background-color: $navbar-default-link-hover-bg;
       }
     }
     > .active > a {
       &,
       &:hover,
       &:focus {
-        color: #fff;
-        background-color:  #89CFF0;
+        color: $navbar-default-link-active-color;
+        background-color: $navbar-default-link-active-bg;
       }
     }
     > .disabled > a {
@@ -496,7 +490,7 @@
           &,
           &:hover,
           &:focus {
-            : $navbar-default-link-disabled-color;
+            color: $navbar-default-link-disabled-color;
             background-color: $navbar-default-link-disabled-bg;
           }
         }
